@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo -s;
 apt update;
 apt upgrade -y;
 apt install docker.io docker-compose nginx -y;
